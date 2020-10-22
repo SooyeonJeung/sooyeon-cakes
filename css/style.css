@@ -71,7 +71,12 @@ a, h3 {
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
+    padding: 100px;
     margin-top: 40px;
+}
+
+.company-page h3 {
+    margin-left: 20px;
 }
 
 
@@ -88,5 +93,25 @@ button {
     margin-top: 10px;
 }
 
-
-
+@media screen and (max-width:700px) {
+    .nav-bar {
+        flex-direction: column-reverse;
+    }
+    
+    .company-page {
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+     .company-page {
+         flex-direction: column;
+     }
+     .company-page {
+        padding: 0px;
+        margin-top: 40px;
+    }
+ 
+ #cat-baking {
+     max-width: 60%;
+     margin: 30px;
+     }
