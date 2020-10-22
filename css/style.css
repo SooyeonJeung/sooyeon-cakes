@@ -1,0 +1,92 @@
+
+.blue-background {
+    background-color:#F7F0DE;
+}
+
+.nav-bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+#front-page-image {
+    height: auto;
+    width: 400px;
+
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+h1, h3, h4, a, form, button {
+    font-family: 'Caveat', cursive;
+   
+}
+
+h1 {
+    font-size: 28px;
+    color: rgb(85, 26, 139);
+    
+}
+
+a, h3 {
+    text-decoration: none;
+    padding: 10px;
+    color: darkslateblue;
+}
+
+#front-page-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.products-image {
+    width: 270px;
+    height: 400px;
+}
+
+
+#products-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products-tile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.company-page {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+button {
+    margin-top: 10px;
+}
+
+
+
