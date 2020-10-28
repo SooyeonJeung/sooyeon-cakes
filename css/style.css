@@ -43,6 +43,8 @@ button {
 body {
     margin: 0px;
     background-color: white;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h1, h3, h4, a, form, button {
