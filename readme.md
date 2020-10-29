@@ -1,6 +1,6 @@
 # About
 
-A website for the business Cat's cakes
+A website for the business Sooyeon's cakes
 
 ## How to run
 
